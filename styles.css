@@ -5,3 +5,120 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38px 150px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.nav * {
+    text-decoration: none;
+    list-style: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 38px 150px 150px 150px;
+    background-color: #1F2937;
+    gap: 30px;
+}
+
+.hero > * {
+    flex: 1;
+}
+
+.hero-subtext,
+.hero-placeholder-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.left-hero-section,
+.right-hero-section {
+    /* border: 1px solid black; */
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-hero-section {
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.left-hero-section h1,
+.hero-subtext {
+
+}
+
+.right-hero-section {
+    text-align: center;
+    background-color: grey;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #F9FAF8;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 60px 150px 120px 150px;
+}
+
+.card-container {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.card-img {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #3882F6;
+    border-width: 5px;
+    border-radius: 7px;
+}
