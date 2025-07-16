@@ -68,9 +68,9 @@ body {
     gap: 20px;
 }
 
-.left-hero-section h1,
 .hero-subtext {
-
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .right-hero-section {
@@ -100,10 +100,12 @@ h1 {
     align-items: center;
     gap: 70px;
     padding: 60px 150px 120px 150px;
+    color: #1F2937;
 }
 
 .card-container {
     display: flex;
+    gap: 15px;
 }
 
 .card {
@@ -121,4 +123,82 @@ h1 {
     border: 1px solid #3882F6;
     border-width: 5px;
     border-radius: 7px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 120px 150px 120px 150px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+}
+
+.quote-container {
+    width: 100%;
+}
+
+.quote-author-container {
+    text-align: end;
+    margin-right: 20px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quote {
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-author {
+    text-align: right;
+}
+
+.call-to-action {
+    padding: 100px 150px;
+}
+
+.action-card {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 50px 120px;
+    border-radius: 7px;
+    gap: 50px;
+}
+
+.action-card h5 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.action-card p {
+    color: #E5E7EB;
+}
+
+.action-card button {
+    background-color: #3882F6;
+    font-size: 20px;
+    color: #F9FAF8;
+    padding: 5px 20px;
+    border: 2px solid #F9FAF8;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.footer {
+    text-align: center;
+    color: #E5E7EB;
+    padding: 30px 50px;
+    background-color: #1F2937;
+    font-size: 15px;
+    flex: 1 0 auto;
 }
